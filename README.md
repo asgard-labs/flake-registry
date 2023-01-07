@@ -1,2 +1,2 @@
 # flake-registry
-The flake registry for Asgard Labs
+A public flake of `Asgard Labs` for pinning external sources
