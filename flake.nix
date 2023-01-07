@@ -1,4 +1,7 @@
 {
+
+  description = "A public flake of `Asgard Labs` for pinning external sources";
+
   inputs = {
 
     nixpkgs-unstable.url = github:nixos/nixpkgs/nixos-unstable;
@@ -12,8 +15,16 @@
 
     flake-compat.url = github:edolstra/flake-compat;
     flake-compat.flake = false;
+
+    deploy-rs.url = github:serokell/deploy-rs;
+
+    nixos-shell.url = github:Mic92/nixos-shell;
+
+    agenix.url = github:ryantm/agenix;
+
   };
 
   outputs = inputs: {};
+
 }
 
