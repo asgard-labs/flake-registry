@@ -12,7 +12,7 @@
     nixpkgs-21_11.url = github:nixos/nixpkgs/nixos-21.11;
     nixpkgs-21_05.url = github:nixos/nixpkgs/nixos-21.05;
 
-    flake-utils.url = github:numtide/flake-utils/master;
+    flake-utils.url = github:numtide/flake-utils;
 
     flake-compat.url = github:edolstra/flake-compat;
     flake-compat.flake = false;
